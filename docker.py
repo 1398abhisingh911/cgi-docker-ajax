@@ -2,12 +2,11 @@
 #!/usr/bin/python3
 
 
-import os
-import subprocess
 import cgi
+import subprocess
+import os
 print("content-type: text/html")
 print()
-
 
 x = cgi.FieldStorage()
 cmd = x.getvalue("cmd")
