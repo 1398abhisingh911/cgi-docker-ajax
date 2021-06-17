@@ -1,6 +1,8 @@
 <!Doctype html>
 <html>
 
+
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,24 +13,45 @@
 </head>
 
 <body>
-    <h1 style="position: absolute;left: 35%;color: aliceblue;">Welcome to DOCKER Page</h1>
-    <br>
-    <br>
-    <br>
-    <form action='http://192.168.218.6/cgi-bin/docker.py'>
-        <div class="form-group">
-            <h1 style="color: aliceblue;">Manually Enter Command</h1>
 
-            <input type="text" name="cmd" class="form-control" id="cmd" placeholder="Enter Command">
+
+
+    <h1 style="text-align: center;">Welcome to DOCKER Web App</h1>
+    <br>
+    <br>
+
+    <script>
+        function lw1() {
+            alert("The form1 was submitted");
+        }
+    </script>
+    <form onSubmit="lw1()">
+        <div class="form-group input">
+            <h1>Manually Enter Command</h1>
+            <input type="text" name="cmd" class="form-control input" id="cmd" placeholder="Enter Command">
         </div>
         <br>
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>
     <br>
     <br>
-    <form action='http://192.168.218.6/cgi-bin/docker.py'>
-        <div class="form-group" style="color: aliceblue;">
-            <h1 style="color: aliceblue;">Select and Run SECTION</h1>
+    <div id="output1">
+        <div class="topoutput">Output from server</div>
+        <br>
+        <div id="inneroutput1"></div>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <script>
+        function lw2() {
+            alert("The form2 was submitted");
+        }
+    </script>
+    <form onSubmit="lw2()">
+        <div class="form-group input">
+            <h1>Select and Run Section</h1>
             <input type="checkbox" id="vehicle1" name="linux1" value="a">
             <label for="vehicle1"> Get All Containers info</label><br>
             <input type="checkbox" id="vehicle2" name="linux2" value="b">
@@ -43,30 +66,63 @@
             <br>
             <button type="submit" class="btn btn-primary">Submit</button>
     </form>
+    <br>
+    <br>
+    <div id="output2">
+        <div class="topoutput">Output from server</div>
+        <br>
+        <div id="inneroutput2"></div>
+    </div>
+    <br>
+    <br>
 
-    <form action='http://192.168.218.6/cgi-bin/docker.py'>
-        <div class="form-group">
-            <h1 style="color: aliceblue;">Run Container</h1>
-            <input type="text" name="nameco" class="form-control" id="cmd" placeholder="Enter Container name">
-            <input type="text" name="nameim" class="form-control" id="cmd" placeholder="Enter Image Name">
-            <input type="text" name="cport" class="form-control" id="cmd" placeholder="Container Port to expose">
-            <input type="text" name="dhport" class="form-control" id="cmd" placeholder="DockerHost Port for expose">
-            <input type="text" name="cvol" class="form-control" id="cmd" placeholder="Container volume to mount">
-            <input type="text" name="dhvol" class="form-control" id="cmd" placeholder="DockerHost Volume for mount">
+    <script>
+        function lw3() {
+            alert("The form3 was submitted");
+        }
+    </script>
+    <form onSubmit="lw3()">
+        <div class="form-group input">
+            <h1>Run Container</h1>
+            <input type="text" name="nameco" class="form-control input" id="cmd" placeholder="Enter Container name">
+            <input type="text" name="nameim" class="form-control input" id="cmd" placeholder="Enter Image Name">
+            <input type="text" name="cport" class="form-control input" id="cmd" placeholder="Container Port to expose">
+            <input type="text" name="dhport" class="form-control input" id="cmd" placeholder="DockerHost Port for expose">
+            <input type="text" name="cvol" class="form-control input" id="cmd" placeholder="Container volume to mount">
+            <input type="text" name="dhvol" class="form-control input" id="cmd" placeholder="DockerHost Volume for mount">
             <br>
             <button type="submit" class="btn btn-primary">Submit</button>
     </form>
     <br>
     <br>
-    <form action='http://192.168.218.6/cgi-bin/docker.py'>
-        <div class="form-group">
-            <h1 style="color: aliceblue;">Deletion</h1>
-            <input type="text" name="namecon" class="form-control" id="cmd" placeholder="Enter Container ID">
-            <input type="text" name="nameima" class="form-control" id="cmd" placeholder="Enter Image name">
+    <div id="output3">
+        <div class="topoutput">Output from server</div>
+        <br>
+        <div id="inneroutput3"></div>
+    </div>
+    <br>
+    <br>
 
+    <script>
+        function lw4() {
+            alert("The form4 was submitted");
+        }
+    </script>
+    <form onSubmit="lw4()">
+        <div class="form-group input">
+            <h1>Deletion</h1>
+            <input type="text" name="namecon" class="form-control input" id="cmd" placeholder="Enter Container ID">
+            <input type="text" name="nameima" class="form-control input" id="cmd" placeholder="Enter Image name">
             <br>
             <button type="submit" class="btn btn-primary">Submit</button>
     </form>
+    <br>
+    <br>
+    <div id="output4">
+        <div class="topoutput">Output from server</div>
+        <br>
+        <div id="inneroutput4"></div>
+    </div>
     <br>
     <br>
 

@@ -1,13 +1,56 @@
    body {
-       background-image: url("/static/bg.jpg");
+       background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHCg0NBw0NDQ0NDQ0PDQ0NDQ8NDQ0NFRUWFhURFRUYHCggGBolGxMVITEhJSkrLi4uFx8zODMsNygtLisBCgoKDQ0NFQ0PGisZExkrLSsrKysrKysrKysrLSsrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAKgBLAMBIgACEQEDEQH/xAAZAAEBAQEBAQAAAAAAAAAAAAACAwEABQf/xAAWEAEBAQAAAAAAAAAAAAAAAAAAAQL/xAAYAQEBAQEBAAAAAAAAAAAAAAABAAIEA//EABURAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIRAxEAPwD7PQp0K9XiFT0pU9NQBRpUaQnQp0KQFCnQrQChToUgNBT0FaCdCnQpA1OqVOtQBWxlbCiKCUCKFBhRIiglEihQYUCKHAhxIo2MjYEcKDCiRFBKJFCgwoE9KhToVzOgKnpSp6agCjSo0hOhToUgKFOhWgFCnQpAaCnoK0E6FOhSBqdUqdagCtjK2FEUEoEUKDCiRFBKJFCgwoEUOBDiRRsZGwI4UGFEiKCUSKFBhQJ6VCnQrmdAVPSlT01AFGlRpCdCnQpAUKdCtAKFOhSA0FPQVoJ0KdCkDU6pU61AFbGVsKIoJQIoUGFEiKCUSKFBhQIocCHEijYyNgRwoMKJEUEokUKDCgT0qFOhXM6AqelKnpqAKNKjSE6FOhSAoU6FaAUKdCkBoKegrQToU6FIGp1Sp1qAK2MrYURQSgRQoMKJEUEokUKDCgRQ4EOJFGxkbAjhQYUSIoJRIoUGFAnpUKdCuZ0BU9KVPTUAUaVGkJ0KdCkBQp0K0AoU6FIDQU9BWgnQp0KQNTqlTrUAVsZWwoiglAihQYUSIoJRIoUGFAihwIcSKNjI2BHCgwokRQSiRQoMKBPSoU6FczoCp6UqemoAo0qNIToU6FIChToVoBQp0KQGgp6CtBOhToUganVKnWoArYythRFBKBFCgwokRQSiRQoMKBFDgQ4kUbGRsCOFBhRIiglEihQYUCelQp0K5nQFT0pU9NQBRpUaQnQp0KQFCnQrQChToUgNBT0FaCdCnQpA1OqVOtQBWxlbCiKCUCKFBhRIiglEihQYUCKHAhxIo2MjYEcKDCiRFBKJFCgwoE9KhToVzOgKnpSp6agCjSo0hOhToUgKFOhWgFCnQpAaCnoK0E6FOhSBqdUqdagCtjK2FEUEoEUKDCiRFBKJFCgwoEUOBDiRRsZGwI4UGFEiKCUSKFBhQJ6VCnQrmdAVPSlT01AFGlRpCdCnQpAUKdCtAKFOhSA0FPQVoJ0KdCkDU6pU61AFbGVsKIoJQIoUGFEiKCUSKFBhQIocCHEijYyNgRwoMKJEUEokUKDCgT0qFOhXM6AqelKnpqAKNKjSE6FOhSAoU6FaAUKdCkBoKegrQToU6FIGp1Sp1qAK2MrYURQSgRQoMKJEUEokUKDCgRQ4EOJFGxkbAjhQYUSIoJRIoUGFAnpUK5zmdAVPTnNQBRrnEJ0K5xAUK5zQChWOIHQVjmgFCucQNTrXNQJ1sc4oijnBFCjnJEUc5IoUc4IocY5I42OcEcKOckRRzkihRzgn/9k=");
        height: 100%;
        background-position: center;
        background-repeat: no-repeat;
        background-size: cover;
    }
    
-   input[type=text] {
-       margin-bottom: 0.3cm;
-       background-color: #c6d5e9;
-       color: white;
+   .input {
+       font-weight: 700;
+       color: black;
+       width: 100%;
+   }
+   
+   #output1 {
+       background-color: cornsilk;
+       width: 100%;
+       height: 150px;
+       border-radius: 5px;
+       overflow-y: hidden;
+   }
+   
+   #output2 {
+       background-color: cornsilk;
+       width: 100%;
+       height: 150px;
+       border-radius: 5px;
+       overflow-y: hidden;
+   }
+   
+   #output3 {
+       background-color: cornsilk;
+       width: 100%;
+       height: 150px;
+       border-radius: 5px;
+       overflow-y: hidden;
+   }
+   
+   #output4 {
+       background-color: cornsilk;
+       width: 100%;
+       height: 150px;
+       border-radius: 5px;
+       overflow-y: hidden;
+   }
+   
+   h1 {
+       color: black;
+   }
+   
+   .topoutput {
+       text-align: center;
+       color: black;
+       font-size: medium;
+       font-weight: 600;
    }
