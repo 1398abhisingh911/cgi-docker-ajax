@@ -1,0 +1,13 @@
+   body {
+       background-image: url("/static/bg.jpg");
+       height: 100%;
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+   }
+   
+   input[type=text] {
+       margin-bottom: 0.3cm;
+       background-color: #c6d5e9;
+       color: white;
+   }
